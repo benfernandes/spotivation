@@ -15,7 +15,7 @@ const App = () => {
     return (
         <SpotifyProvider>
             <div
-                className={`flex flex-col fixed inset-0 bg-gradient-to-b to-black ${getGradientFromColor(
+                className={`grid grid-cols-1 grid-rows-3 absolute inset-0 bg-gradient-to-b to-black ${getGradientFromColor(
                     channelColor
                 )}`}
             >

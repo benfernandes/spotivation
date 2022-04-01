@@ -24,7 +24,7 @@ const NowPlaying = () => {
     }, [spotifyContext]);
 
     return (
-        <div className="text-white rounded-md grid gap-4 grid-cols-2 grid-rows-1 flex-grow p-8">
+        <div className="text-white rounded-md grid gap-4 grid-cols-2 grid-rows-1 p-8">
             <AlbumArt src={artworkUrl} />
             <SongInfo
                 songTitle={songTitle}
